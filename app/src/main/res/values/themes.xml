@@ -1,0 +1,17 @@
+<resources>
+
+  <style name="PlatformAdjusted.Theme.App" parent="android:Theme.Material.Light.NoActionBar">
+    <item name="android:windowBackground">@color/background</item>
+  </style>
+
+  <style name="Theme.App" parent="PlatformAdjusted.Theme.App" />
+
+  <style name="PlatformAdjusted.Theme.Starting" parent="Theme.SplashScreen">
+    <item name="android:windowBackground">@color/background</item>
+  </style>
+
+  <style name="Theme.Starting" parent="PlatformAdjusted.Theme.Starting">
+    <item name="postSplashScreenTheme">@style/Theme.App</item>
+  </style>
+
+</resources>

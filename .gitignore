@@ -1,0 +1,52 @@
+#--------------------------
+# Google Services *(Mandatory)
+google-services.json
+
+# Local configuration *(Mandatory)
+secrets.properties
+keystore.properties
+
+#--------------------------
+
+# Gradle files
+.gradle/
+build/
+reports/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+output.json
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Android Profiling
+*.hprof
+
+# Ignore Mac DS_Store files
+.DS_Store
+**/.DS_Store
