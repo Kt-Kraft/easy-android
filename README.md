@@ -6,18 +6,26 @@
   <a href="#contributors"><img src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat" alt="All Contributors"/></a>
 </div>
 
-</br>
+<br/>
 
-## 📋 Features
+<p align="center">
+  A modern, scalable Android app template designed to boost development efficiency and support the best practices in mobile app architecture.
+</p>
 
+<br/>
+
+---
+
+## 🚀 Overview
+
+This repository offers a robust foundation for Android app development, featuring:
 - **Scalable Architecture**: Modular structure for easy feature integration and maintenance.
 - **Modern Libraries**: Integrated with Jetpack Compose, Kotlin Coroutines, and other libraries for Android development.
-- **Git Hooks & Code Quality**: Pre-configured git hooks and linting to ensure clean, consistent code.
-- **Customizable & Extendable**: Easily customizable configurations to adapt to project-specific requirements.
+- **Conventional Commit Linting**: Integrated support for enforcing conventional commit messages.
 
 </br>
 
-## 🚀 Getting Started
+## 📝 Setup & Usage
 
 ### 1. Clone the Repository
 
@@ -36,25 +44,5 @@ cd easy-android
 1. Open **Android Studio**
 2. Navigate to **File** > **New** > **Project from Version Control**
 3. Select **GitHub** and enter the repository URL
-
-### 2. Install Node.js and Yarn
-
-This project uses [Volta](https://volta.sh/) to manage Node.js and Yarn versions for a consistent environment.
-
-```bash
-# Install Node.js and Yarn using Volta
-volta install node
-volta install yarn
-```
-
-### 3. Initialize Git Hooks
-
-Set up git hooks for development tooling:
-
-```bash
-# Install dependencies and initialize git hooks
-yarn install
-lefthook install
-```
 
 ---

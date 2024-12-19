@@ -1,9 +1,0 @@
-<resources>
-  <string name="flash_off">flash off</string>
-  <string name="flash_on">flash on</string>
-  <string name="flash_auto">flash auto</string>
-  <string name="refresh">refresh</string>
-  <string name="photo">photo</string>
-  <string name="video">video</string>
-  <string name="qr_code">QR code</string>
-</resources>

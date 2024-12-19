@@ -31,7 +31,7 @@ public class MainActivity : ComponentActivity() {
       AppTheme {
         MainNavGraph(
           navController = navController,
-          startDestination = Screen.CameraView
+          startDestination = Screen.Homepage
         )
       }
     }

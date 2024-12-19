@@ -4,10 +4,11 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {
   repositories {
+    mavenLocal()
     maven(url = "https://maven.pkg.github.com/Kt-Kraft/build-logic/") {
       credentials {
-        username = providers.gradleProperty("github.username").orNull
-        password = providers.gradleProperty("github.token").orNull
+        username = System.getenv("GITHUB_USERNAME")
+        password = System.getenv("GITHUB_TOKEN")
       }
     }
     google()
@@ -32,16 +33,11 @@ plugins {
 
 include(":app")
 
-// Core
 include(":core:common")
 include(":core:domain")
 include(":core:design-system")
 include(":core:navigation")
 
-// Features
-include(":feature:camera-view")
-
-// Libraries
+include(":feature:homepage")
 include(":libraries:easy-paging")
-include(":libraries:easy-camera")
 include(":libraries:easy-mvi")

@@ -10,4 +10,3 @@ public val LocalColorScheme: ProvidableCompositionLocal<AppColorSchemeModel> =
 
 public val LocalTypography: ProvidableCompositionLocal<AppTypographyModel> =
   staticCompositionLocalOf { AppTypographyModel() }
-

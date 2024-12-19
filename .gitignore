@@ -18,6 +18,7 @@ local.properties
 
 # Log/OS Files
 *.log
+*.salive
 
 # Android Studio generated files and folders
 captures/
