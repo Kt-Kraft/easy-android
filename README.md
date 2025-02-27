@@ -25,11 +25,9 @@ This repository offers a robust foundation for Android app development, featurin
 
 ## 📝 Setup & Usage
 
-### 1. Clone the Repository
-
 Clone the repository to your local machine using one of the following methods.
 
-**Command Line**:
+**1. Command Line**:
 
 ```bash
 # Clone this repository
@@ -37,10 +35,8 @@ git clone https://github.com/Kt-Kraft/easy-android.git
 cd easy-android
 ```
 
-**Android Studio**:
+**2. Android Studio**:
 
 1. Open **Android Studio**
 2. Navigate to **File** > **New** > **Project from Version Control**
 3. Select **GitHub** and enter the repository URL
-
----
