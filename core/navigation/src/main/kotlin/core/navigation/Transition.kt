@@ -58,4 +58,3 @@ public val exitPop: AnimatedContentTransitionScope<NavBackStackEntry>.() -> Exit
     targetOffset = { it },
   )
 }
-

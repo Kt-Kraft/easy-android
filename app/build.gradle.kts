@@ -1,7 +1,6 @@
 plugins {
   alias(libs.plugins.kotlin.android)
   alias(libs.plugins.convention.compose.app)
-  alias(libs.plugins.kotlin.ksp)
 }
 
 android {
@@ -11,6 +10,17 @@ android {
     applicationId = "easy.app"
     versionCode = 1
     versionName = "0.1.0"
+  }
+
+  flavorDimensions += "environment"
+
+  productFlavors {
+    create("development") {
+      dimension = "environment"
+    }
+    create("production") {
+      dimension = "environment"
+    }
   }
 }
 

@@ -14,8 +14,6 @@
 
 <br/>
 
----
-
 ## 🚀 Overview
 
 This repository offers a robust foundation for Android app development, featuring:
